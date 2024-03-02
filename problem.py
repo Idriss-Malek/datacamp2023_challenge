@@ -3,7 +3,7 @@ from sklearn.model_selection import StratifiedShuffleSplit
 import pandas as pd
 import os
 
-problem_title = 'Titanic survival classification'
+problem_title = "Predicting Property Fair Visitors' Booking Probability"
 
 _prediction_label_names = [0, 1]
 
