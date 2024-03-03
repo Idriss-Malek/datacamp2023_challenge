@@ -1,5 +1,5 @@
 # datacamp2023_challenge
-# Predicting Property Fair Visitors' Booking Probability
+# Predicting Property Fair Visitors Booking Probability
 
 
 ## Table of Contents
