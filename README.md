@@ -33,7 +33,7 @@ This dataset contains information about visitors at a property fair and their li
    - `Question_Occupation`
    - `Question_P_Income`
    - `Question_TimeToMoveIn`
-   - `Target_Variable_Convert` (target variable)
+   - `Target` (target variable)
 - **VisitorID:** Unique identifier for each visitor.
 - **Proj_Group:** Group classification of the project (e.g., Outer, Central, Urban).
 - **Proj_Segment:** Segment classification of the project (e.g., Standard Units, Premium Units).
@@ -51,20 +51,7 @@ This dataset contains information about visitors at a property fair and their li
 - **Question_TimeToMoveIn:** Time frame in which the visitor plans to move in.
 - **Target_Variable_Convert:** Binary variable indicating whether the visitor booked a property (TRUE) or not (FALSE).
 
-### Additional Data:
-This dataset provides additional details about the visitors' preferences and reasons for attending the property fair.
-   - `VisitorID`
-   - `Question_Property_Buy_Objective`
-   - `Question_Channel`
-   - `Question_Factors_Considered`
-   - `Question_Reason_to_visit_property_fair`
-- **VisitorID:** Unique identifier for each visitor (linked to the Property Purchase Data).
-- **Question_Property_Buy_Objective:** Objective of buying the property (e.g., Residence).
-- **Question_Channel:** Channel through which the visitor learned about the property fair.
-- **Question_Factors_Considered:** Factors considered by the visitor when evaluating properties.
-- **Question_Reason_to_visit_property_fair:** Reason for visiting the property fair (e.g., Location, Project's Attractiveness).
-
-These datasets collectively provide insights into the characteristics and preferences of visitors at the property fair, which can be leveraged to predict the probability of visitors booking a property. Further analysis and modeling can help identify key factors influencing booking decisions and optimize marketing strategies to target potential buyers effectively.
+These dataset provides insights into the characteristics and preferences of visitors at the property fair, which can be leveraged to predict the probability of visitors booking a property. Further analysis and modeling can help identify key factors influencing booking decisions and optimize marketing strategies to target potential buyers effectively.
 
 ## Data Preparation
 - Checked data types for each column and performed necessary transformations.
