@@ -1,12 +1,7 @@
 # Predicting Property Fair Visitors Booking Probability
 
 ## Authors
-- Idriss Malek
-- Zakaria El Kassimi
-- Yassine Beniguemim
-- Noureddine Boullam
-- Mohammed Kafile
-- Mohamed kheir
+- Idriss Malek & Zakaria El Kassimi & Yassine Beniguemim & Noureddine Boullam & Mohammed Kafile & Mohamed kheir
 
 ## Getting Started
 
