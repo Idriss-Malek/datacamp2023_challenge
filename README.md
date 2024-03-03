@@ -23,7 +23,7 @@ The objective of this study is to predict the probability of property fair visit
 
 ### Test a Submission
 
-All submissions should be located in the `submissions` folder. For instance, for a submission named `my_submission`, it should be located in `submissions/my_submission`.
+All submissions should be located in the `submissions` folder. For instance, for a submission named `starting-kit`, it should be located in `submissions/starting-kit`.
 
 To run a specific submission, you can use the `ramp-test` command line:
 
