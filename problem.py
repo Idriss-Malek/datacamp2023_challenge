@@ -27,12 +27,8 @@ _ignore_column_names = ["VisitorID"]
 
 
 def _read_data(path, f_name):
-<<<<<<< HEAD
     data = pd.read_csv(os.path.join(path, 'data', f_name), sep=';')
     data = prepare(data)
-=======
-    data = pd.read_csv(os.path.join(path, "data", f_name), sep=";")
->>>>>>> a9f29104f90326a85b0366876bc2138b888c0cc1
     y_array = data[_target_column_name].values
     X_df = data.drop([_target_column_name] + _ignore_column_names, axis=1)
     return X_df, y_array
