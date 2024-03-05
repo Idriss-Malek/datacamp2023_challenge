@@ -2,6 +2,7 @@ import rampwf as rw
 from sklearn.model_selection import StratifiedShuffleSplit
 import pandas as pd
 import os
+from prepare_data import prepare
 
 problem_title = "Predicting Property Fair Visitors' Booking Probability"
 
@@ -25,6 +26,7 @@ _ignore_column_names = ['VisitorID']
 
 def _read_data(path, f_name):
     data = pd.read_csv(os.path.join(path, 'data', f_name), sep=';')
+    data = prepare(data)
     y_array = data[_target_column_name].values
     X_df = data.drop([_target_column_name] + _ignore_column_names, axis=1)
     return X_df, y_array
