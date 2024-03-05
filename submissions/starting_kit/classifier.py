@@ -10,6 +10,6 @@ class Classifier(BaseEstimator):
         return
 
     def predict_proba(self, X):
-        y = np.zeros((X.shape[0],2))
-        y[:, 0] = 1.
+        y = np.zeros((X.shape[0], 2))
+        y[:, 0] = 1.0
         return y
